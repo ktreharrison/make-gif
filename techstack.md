@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 ktreharrison/make-gif is built on the following main stack:
+
 - [Python](https://www.python.org) – Languages
 - [C++](http://www.cplusplus.com/) – Languages
 - [C lang](http://en.wikipedia.org/wiki/C_(programming_language)) – Languages
@@ -14,13 +15,17 @@ ktreharrison/make-gif is built on the following main stack:
 - [pytest](http://pytest.org/latest/) – Testing Frameworks
 - [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 - [Fortran](https://fortran-lang.org/en/) – Languages
+- [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
+- [pgvector](https://github.com/pgvector/pgvector/) – Database Tools
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 ktreharrison/make-gif is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1049/cplusplus.png' alt='C++'/> [C++](http://www.cplusplus.com/) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='C lang'/> [C lang](http://en.wikipedia.org/wiki/C_(programming_language)) – Languages
@@ -33,16 +38,19 @@ ktreharrison/make-gif is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png' alt='pytest'/> [pytest](http://pytest.org/latest/) – Testing Frameworks
 - <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 - <img width='25' height='25' src='https://img.stackshare.io/service/11029/default_075c8240ce6c7ac3a8db41abef5c68eb84207f99.png' alt='Fortran'/> [Fortran](https://fortran-lang.org/en/) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg' alt='LangChain'/> [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png' alt='pgvector'/> [pgvector](https://github.com/pgvector/pgvector/) – Database Tools
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [ktreharrison/make-gif](https://github.com/ktreharrison/make-gif)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|15<br/>Tools used|11/09/23 <br/>Report generated|
+|26<br/>Tools used|12/14/23 <br/>Report generated|
 |------|------|
 </div>
 
@@ -89,6 +97,19 @@ Full tech stack [here](/techstack.md)
   <img width='36' height='36' src='https://img.stackshare.io/service/2993/2DZC4KaA_400x400.jpg' alt='Matplotlib'>
   <br>
   <sub><a href="http://matplotlib.org">Matplotlib</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+</tr>
+</table>
+
+## <img src='https://img.stackshare.io/databases.svg'/> Data (1)
+<table><tr>
+  <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png' alt='pgvector'>
+  <br>
+  <sub><a href="https://github.com/pgvector/pgvector/">pgvector</a></sub>
   <br>
   <sub></sub>
 </td>
@@ -146,9 +167,17 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## Other (4)
+## Other (5)
 <table><tr>
   <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg' alt='LangChain'>
+  <br>
+  <sub><a href="https://github.com/hwchase17/langchain">LangChain</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png' alt='NumPy'>
   <br>
   <sub><a href="http://www.numpy.org/">NumPy</a></sub>
@@ -184,15 +213,24 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (1)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (10)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg'/> PyPI (1)
+## <img width='24' height='24' src='https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg'/> PyPI (10)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
-|[tqdm](https://pypi.org/tqdm)|v4.62.3|11/19/21|Ken Harrison |MPL-2.0,MIT|N/A|
+|[certifi](https://pypi.org/project/certifi)|v2021.10.8|11/19/21|Ken Harrison |MPL-2.0|[CVE-2023-37920](https://github.com/advisories/GHSA-xqr8-7jwr-rhp7) (High)<br/>[CVE-2022-23491](https://github.com/advisories/GHSA-43fp-rhv2-5gv8) (Moderate)|
+|[charset-normalizer](https://pypi.org/project/charset-normalizer)|v2.0.7|11/19/21|Ken Harrison |N/A|N/A|
+|[colorama](https://pypi.org/project/colorama)|v0.4.4|11/19/21|Ken Harrison |BSD-3-Clause|N/A|
+|[decorator](https://pypi.org/project/decorator)|v4.4.2|11/19/21|Ken Harrison |BSD-2-Clause|N/A|
+|[idna](https://pypi.org/project/idna)|v3.3|11/19/21|Ken Harrison |BSD-3-Clause|N/A|
+|[imageio](https://pypi.org/project/imageio)|v2.11.0|11/19/21|Ken Harrison |BSD-3-Clause|N/A|
+|[moviepy](https://pypi.org/project/moviepy)|v1.0.3|11/19/21|Ken Harrison |MIT|N/A|
+|[requests](https://pypi.org/project/requests)|v2.26.0|11/19/21|Ken Harrison |Apache-2.0|[CVE-2023-32681](https://github.com/advisories/GHSA-j8r2-6x86-q33q) (Moderate)|
+|[tqdm](https://pypi.org/project/tqdm)|v4.62.3|11/19/21|Ken Harrison |MPL-2.0,MIT|N/A|
+|[urllib3](https://pypi.org/project/urllib3)|v1.26.7|11/19/21|Ken Harrison |MIT|[CVE-2023-45803](https://github.com/advisories/GHSA-g4mx-q9vg-27p4) (Moderate)<br/>[CVE-2023-43804](https://github.com/advisories/GHSA-v845-jxx5-vc9f) (Moderate)|
 
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
