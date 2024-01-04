@@ -1,7 +1,8 @@
 repo_name: ktreharrison/make-gif
-report_id: faa4a0f02ed341334046c64d63954b29
+report_id: 5ed2b6604949b5b0544d7c1997706ee3
+version: 0.1
 repo_type: Public
-timestamp: '2023-12-14T09:29:10+00:00'
+timestamp: '2024-01-04T14:54:01+00:00'
 requested_by: ktreharrison
 provider: github
 branch: master
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/ktreharrison/make-gif
   detection_source: Repo Metadata
 - name: C++
   description: Has imperative, object-oriented and generic programming features, while
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source_url: https://github.com/ktreharrison/make-gif
   detection_source: Repo Metadata
 - name: Fortran
   description: High-performance parallel programming language
@@ -34,6 +37,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/11029/default_075c8240ce6c7ac3a8db41abef5c68eb84207f99.png
+  detection_source_url: https://github.com/ktreharrison/make-gif
   detection_source: Repo Metadata
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
@@ -44,6 +48,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/ktreharrison/make-gif
   detection_source: Repo Metadata
 - name: Matplotlib
   description: A plotting library for the Python programming language
@@ -53,6 +58,7 @@ tools:
   category: Libraries
   sub_category: Charting Libraries
   image_url: https://img.stackshare.io/service/2993/2DZC4KaA_400x400.jpg
+  detection_source_url: https://github.com/ktreharrison/make-gif/blob/master/venv/Lib/site-packages/moviepy-1.0.3-py3.10.egg-info/requires.txt
   detection_source: venv/Lib/site-packages/moviepy-1.0.3-py3.10.egg-info/requires.txt
   last_updated_by: Ken Harrison
   last_updated_on: 2021-11-19 10:58:25.000000000 Z
@@ -64,6 +70,7 @@ tools:
   category: Data Stores
   sub_category: Database Tools
   image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source_url: https://github.com/ktreharrison/make-gif/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Ken Harrison
   last_updated_on: 2021-11-19 10:58:25.000000000 Z
@@ -75,6 +82,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ktreharrison/make-gif
   detection_source: Repo Metadata
 - name: PyPI
   description: A repository of software for the Python programming language
@@ -84,6 +92,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/ktreharrison/make-gif/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Ken Harrison
   last_updated_on: 2021-11-19 10:58:25.000000000 Z
@@ -109,6 +118,7 @@ tools:
   category: Assets and Media
   sub_category: Image Processing and Management
   image_url: https://img.stackshare.io/service/2375/default_1f67b0ca7416a9f52beb655f90b5602d5ef74b75.jpg
+  detection_source_url: https://github.com/ktreharrison/make-gif/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Ken Harrison
   last_updated_on: 2021-11-19 10:58:25.000000000 Z
@@ -120,6 +130,7 @@ tools:
   category: Assets and Media
   sub_category: Image Processing and Management
   image_url: https://img.stackshare.io/service/1294/897180.png
+  detection_source_url: https://github.com/ktreharrison/make-gif/blob/master/venv/Lib/site-packages/moviepy-1.0.3-py3.10.egg-info/requires.txt
   detection_source: venv/Lib/site-packages/moviepy-1.0.3-py3.10.egg-info/requires.txt
   last_updated_by: Ken Harrison
   last_updated_on: 2021-11-19 10:58:25.000000000 Z
@@ -131,6 +142,7 @@ tools:
   category: Communications
   sub_category: Large Language Model Tools
   image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/ktreharrison/make-gif/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Ken Harrison
   last_updated_on: 2021-11-19 10:58:25.000000000 Z
@@ -156,6 +168,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source_url: https://github.com/ktreharrison/make-gif
   detection_source: Repo Metadata
 - name: SciPy
   description: Scientific Computing Tools for Python
@@ -180,6 +193,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/ktreharrison/make-gif
   detection_source: Repo Metadata
 - name: certifi
   description: Python package for providing Mozilla's CA Bundle
