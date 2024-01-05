@@ -1,11 +1,12 @@
 repo_name: ktreharrison/make-gif
 report_id: 5ed2b6604949b5b0544d7c1997706ee3
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T13:44:35+00:00'
+timestamp: '2024-01-05T09:26:37+00:00'
 requested_by: ktreharrison
 provider: github
 branch: master
-detected_tools_count: 15
+detected_tools_count: 26
 tools:
 - name: C lang
   description: One of the most widely used programming languages of all time
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/ktreharrison/make-gif
   detection_source: Repo Metadata
 - name: C++
   description: Has imperative, object-oriented and generic programming features, while
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source_url: https://github.com/ktreharrison/make-gif
   detection_source: Repo Metadata
 - name: Fortran
   description: High-performance parallel programming language
@@ -34,6 +37,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/11029/default_075c8240ce6c7ac3a8db41abef5c68eb84207f99.png
+  detection_source_url: https://github.com/ktreharrison/make-gif
   detection_source: Repo Metadata
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
@@ -44,6 +48,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/ktreharrison/make-gif
   detection_source: Repo Metadata
 - name: Matplotlib
   description: A plotting library for the Python programming language
@@ -53,7 +58,20 @@ tools:
   category: Libraries
   sub_category: Charting Libraries
   image_url: https://img.stackshare.io/service/2993/2DZC4KaA_400x400.jpg
+  detection_source_url: https://github.com/ktreharrison/make-gif/blob/master/venv/Lib/site-packages/moviepy-1.0.3-py3.10.egg-info/requires.txt
   detection_source: venv/Lib/site-packages/moviepy-1.0.3-py3.10.egg-info/requires.txt
+  last_updated_by: Ken Harrison
+  last_updated_on: 2021-11-19 10:58:25.000000000 Z
+- name: pgvector
+  description: Open-source vector similarity search for Postgres
+  website_url: https://github.com/pgvector/pgvector/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source_url: https://github.com/ktreharrison/make-gif/blob/master/requirements.txt
+  detection_source: requirements.txt
   last_updated_by: Ken Harrison
   last_updated_on: 2021-11-19 10:58:25.000000000 Z
 - name: Git
@@ -64,6 +82,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ktreharrison/make-gif
   detection_source: Repo Metadata
 - name: PyPI
   description: A repository of software for the Python programming language
@@ -73,7 +92,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
-  detection_source: venv/Lib/site-packages/proglog-0.1.9-py3.10.egg-info/requires.txt
+  detection_source_url: https://github.com/ktreharrison/make-gif/blob/master/requirements.txt
+  detection_source: requirements.txt
   last_updated_by: Ken Harrison
   last_updated_on: 2021-11-19 10:58:25.000000000 Z
 - name: pytest
@@ -86,7 +106,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
-  detection_source_url: venv/Lib/site-packages/moviepy-1.0.3-py3.10.egg-info/requires.txt
+  detection_source_url: https://github.com/ktreharrison/make-gif/blob/master/venv/Lib/site-packages/moviepy-1.0.3-py3.10.egg-info/requires.txt
   detection_source: venv/Lib/site-packages/moviepy-1.0.3-py3.10.egg-info/requires.txt
   last_updated_by: Ken Harrison
   last_updated_on: 2021-11-19 10:58:25.000000000 Z
@@ -98,6 +118,7 @@ tools:
   category: Assets and Media
   sub_category: Image Processing and Management
   image_url: https://img.stackshare.io/service/2375/default_1f67b0ca7416a9f52beb655f90b5602d5ef74b75.jpg
+  detection_source_url: https://github.com/ktreharrison/make-gif/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Ken Harrison
   last_updated_on: 2021-11-19 10:58:25.000000000 Z
@@ -109,7 +130,20 @@ tools:
   category: Assets and Media
   sub_category: Image Processing and Management
   image_url: https://img.stackshare.io/service/1294/897180.png
+  detection_source_url: https://github.com/ktreharrison/make-gif/blob/master/venv/Lib/site-packages/moviepy-1.0.3-py3.10.egg-info/requires.txt
   detection_source: venv/Lib/site-packages/moviepy-1.0.3-py3.10.egg-info/requires.txt
+  last_updated_by: Ken Harrison
+  last_updated_on: 2021-11-19 10:58:25.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/ktreharrison/make-gif/blob/master/requirements.txt
+  detection_source: requirements.txt
   last_updated_by: Ken Harrison
   last_updated_on: 2021-11-19 10:58:25.000000000 Z
 - name: NumPy
@@ -122,8 +156,8 @@ tools:
   category: Libraries
   sub_category: Data Science Tools
   image_url: https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png
-  detection_source_url: requirements.txt
-  detection_source: venv/Lib/site-packages/moviepy-1.0.3-py3.10.egg-info/requires.txt
+  detection_source_url: https://github.com/ktreharrison/make-gif/blob/master/requirements.txt
+  detection_source: requirements.txt
   last_updated_by: Ken Harrison
   last_updated_on: 2021-11-19 10:58:25.000000000 Z
 - name: PowerShell
@@ -134,6 +168,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source_url: https://github.com/ktreharrison/make-gif
   detection_source: Repo Metadata
 - name: SciPy
   description: Scientific Computing Tools for Python
@@ -145,7 +180,7 @@ tools:
   category: Libraries
   sub_category: Data Science Tools
   image_url: https://img.stackshare.io/service/3303/scipyshiny_small.png
-  detection_source_url: venv/Lib/site-packages/moviepy-1.0.3-py3.10.egg-info/requires.txt
+  detection_source_url: https://github.com/ktreharrison/make-gif/blob/master/venv/Lib/site-packages/moviepy-1.0.3-py3.10.egg-info/requires.txt
   detection_source: venv/Lib/site-packages/moviepy-1.0.3-py3.10.egg-info/requires.txt
   last_updated_by: Ken Harrison
   last_updated_on: 2021-11-19 10:58:25.000000000 Z
@@ -158,10 +193,142 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/ktreharrison/make-gif
   detection_source: Repo Metadata
+- name: certifi
+  description: Python package for providing Mozilla's CA Bundle
+  package_url: https://pypi.org/project/certifi
+  version: 2021.10.8
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19849/default_75c38a39b9f0062814489e2ec2cbfca0ca15d9ba.png
+  detection_source_url: https://github.com/ktreharrison/make-gif/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ken Harrison
+  last_updated_on: 2021-11-19 10:58:25.000000000 Z
+  vulnerabilities:
+  - name: Removal of e-Tugra root certificate
+    cve_id: CVE-2023-37920
+    cve_url: https://github.com/advisories/GHSA-xqr8-7jwr-rhp7
+    detected_date: Jul 26
+    severity: high
+    first_patched: 2023.7.22
+  - name: Certifi removing TrustCor root certificate
+    cve_id: CVE-2022-23491
+    cve_url: https://github.com/advisories/GHSA-43fp-rhv2-5gv8
+    detected_date: Dec 8
+    severity: moderate
+    first_patched: 2022.12.07
+- name: charset-normalizer
+  description: The Real First Universal Charset Detector
+  package_url: https://pypi.org/project/charset-normalizer
+  version: 2.0.7
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ktreharrison/make-gif/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ken Harrison
+  last_updated_on: 2021-11-19 10:58:25.000000000 Z
+- name: colorama
+  description: Cross-platform colored terminal text
+  package_url: https://pypi.org/project/colorama
+  version: 0.4.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19845/default_accee5d2b8ed75c2245f13504daf75b1cbc8cc9f.png
+  detection_source_url: https://github.com/ktreharrison/make-gif/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ken Harrison
+  last_updated_on: 2021-11-19 10:58:25.000000000 Z
+- name: decorator
+  description: Decorators for Humans
+  package_url: https://pypi.org/project/decorator
+  version: 4.4.2
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19911/default_bc82f0b22ca8fd942e21c317967f4ab61f43eb2c.png
+  detection_source_url: https://github.com/ktreharrison/make-gif/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ken Harrison
+  last_updated_on: 2021-11-19 10:58:25.000000000 Z
+- name: idna
+  description: Internationalized Domain Names in Applications
+  package_url: https://pypi.org/project/idna
+  version: '3.3'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19863/default_f24e00e4cb7620e436f9d06e0305070e1335922a.png
+  detection_source_url: https://github.com/ktreharrison/make-gif/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ken Harrison
+  last_updated_on: 2021-11-19 10:58:25.000000000 Z
+- name: imageio
+  description: Library for reading and writing a wide range of image
+  package_url: https://pypi.org/project/imageio
+  version: 2.11.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20258/default_c011fd31f7e9af58e2e3e8a82a6acdf8662ecdb6.png
+  detection_source_url: https://github.com/ktreharrison/make-gif/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ken Harrison
+  last_updated_on: 2021-11-19 10:58:25.000000000 Z
+- name: moviepy
+  description: Video editing with Python
+  package_url: https://pypi.org/project/moviepy
+  version: 1.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20492/default_7e42545a0162c6dd67f6adc715d6eabd6d2d2736.png
+  detection_source_url: https://github.com/ktreharrison/make-gif/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ken Harrison
+  last_updated_on: 2021-11-19 10:58:25.000000000 Z
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  version: 2.26.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/ktreharrison/make-gif/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ken Harrison
+  last_updated_on: 2021-11-19 10:58:25.000000000 Z
+  vulnerabilities:
+  - name: Unintended leak of Proxy-Authorization header in requests
+    cve_id: CVE-2023-32681
+    cve_url: https://github.com/advisories/GHSA-j8r2-6x86-q33q
+    detected_date: May 23
+    severity: moderate
+    first_patched: 2.31.0
 - name: tqdm
   description: Fast, Extensible Progress Meter
-  package_url: https://pypi.org/tqdm
+  package_url: https://pypi.org/project/tqdm
   version: 4.62.3
   license: MPL-2.0,MIT
   open_source: true
@@ -169,7 +336,35 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19846/default_accee5d2b8ed75c2245f13504daf75b1cbc8cc9f.png
-  detection_source_url: requirements.txt
-  detection_source: venv/Lib/site-packages/proglog-0.1.9-py3.10.egg-info/requires.txt
+  detection_source_url: https://github.com/ktreharrison/make-gif/blob/master/requirements.txt
+  detection_source: requirements.txt
   last_updated_by: Ken Harrison
   last_updated_on: 2021-11-19 10:58:25.000000000 Z
+- name: urllib3
+  description: HTTP library with thread-safe connection pooling
+  package_url: https://pypi.org/project/urllib3
+  version: 1.26.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19842/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/ktreharrison/make-gif/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Ken Harrison
+  last_updated_on: 2021-11-19 10:58:25.000000000 Z
+  vulnerabilities:
+  - name: urllib3's request body not stripped after redirect from 303 status changes
+      request method to GET
+    cve_id: CVE-2023-45803
+    cve_url: https://github.com/advisories/GHSA-g4mx-q9vg-27p4
+    detected_date: Oct 18
+    severity: moderate
+    first_patched: 1.26.18
+  - name: "`Cookie` HTTP header isn't stripped on cross-origin redirects"
+    cve_id: CVE-2023-43804
+    cve_url: https://github.com/advisories/GHSA-v845-jxx5-vc9f
+    detected_date: Oct 3
+    severity: moderate
+    first_patched: 1.26.17
