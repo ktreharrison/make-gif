@@ -2,11 +2,11 @@ repo_name: ktreharrison/make-gif
 report_id: 5ed2b6604949b5b0544d7c1997706ee3
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T09:26:37+00:00'
+timestamp: '2024-01-11T12:15:13+00:00'
 requested_by: ktreharrison
 provider: github
 branch: master
-detected_tools_count: 26
+detected_tools_count: 24
 tools:
 - name: C lang
   description: One of the most widely used programming languages of all time
@@ -60,18 +60,6 @@ tools:
   image_url: https://img.stackshare.io/service/2993/2DZC4KaA_400x400.jpg
   detection_source_url: https://github.com/ktreharrison/make-gif/blob/master/venv/Lib/site-packages/moviepy-1.0.3-py3.10.egg-info/requires.txt
   detection_source: venv/Lib/site-packages/moviepy-1.0.3-py3.10.egg-info/requires.txt
-  last_updated_by: Ken Harrison
-  last_updated_on: 2021-11-19 10:58:25.000000000 Z
-- name: pgvector
-  description: Open-source vector similarity search for Postgres
-  website_url: https://github.com/pgvector/pgvector/
-  open_source: false
-  hosted_saas: false
-  category: Data Stores
-  sub_category: Database Tools
-  image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
-  detection_source_url: https://github.com/ktreharrison/make-gif/blob/master/requirements.txt
-  detection_source: requirements.txt
   last_updated_by: Ken Harrison
   last_updated_on: 2021-11-19 10:58:25.000000000 Z
 - name: Git
@@ -132,18 +120,6 @@ tools:
   image_url: https://img.stackshare.io/service/1294/897180.png
   detection_source_url: https://github.com/ktreharrison/make-gif/blob/master/venv/Lib/site-packages/moviepy-1.0.3-py3.10.egg-info/requires.txt
   detection_source: venv/Lib/site-packages/moviepy-1.0.3-py3.10.egg-info/requires.txt
-  last_updated_by: Ken Harrison
-  last_updated_on: 2021-11-19 10:58:25.000000000 Z
-- name: LangChain
-  description: Build AI apps with LLMs through composability
-  website_url: https://github.com/hwchase17/langchain
-  open_source: true
-  hosted_saas: false
-  category: Communications
-  sub_category: Large Language Model Tools
-  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
-  detection_source_url: https://github.com/ktreharrison/make-gif/blob/master/requirements.txt
-  detection_source: requirements.txt
   last_updated_by: Ken Harrison
   last_updated_on: 2021-11-19 10:58:25.000000000 Z
 - name: NumPy
