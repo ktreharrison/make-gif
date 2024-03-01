@@ -37,6 +37,7 @@ ktreharrison/make-gif is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/3303/scipyshiny_small.png' alt='SciPy'/> [SciPy](http://www.scipy.org) – Data Science Tools
 - <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 
+
 Full tech stack [here](/techstack.md)
 
 &lt;--- Readme.md Snippet with images End ---&gt;
@@ -46,7 +47,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [ktreharrison/make-gif](https://github.com/ktreharrison/make-gif)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|24<br/>Tools used|02/29/24 <br/>Report generated|
+
 |------|------|
 </div>
 
